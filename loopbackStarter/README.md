@@ -3,6 +3,7 @@ This is a sample LoopBack Node.js application which will use a modified [Node.js
 
 1. [Install the cf command-line tool](https://www.ng.bluemix.net/docs/cli/downloads.html).
 2. Using cf, connect and login to Bluemix with your credentials.
+3. 
 ```
 	cf api https://api.ng.bluemix.net
 	cf login
