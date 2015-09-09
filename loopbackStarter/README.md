@@ -47,6 +47,8 @@ Follow these steps to manage your app with StrongLoop Arc.
 	```
 or
 > Go to the Bluemix Dashboard, click the app tile to go the app overview page, and click the Edit routes button to the right of the Routes field.
+>
+> Add the route: `<your_app_name>-pm.mybluemix.net`
 
 2. Run StrongLoop Arc to add your app to the process manager.
 	
@@ -55,5 +57,5 @@ or
 	```
 3. When prompted, log in to StrongLoop.
 4. In the Arc module selector, navigate to Process Manager.
-5. Add your app's route, <your_app_name>-pm.mybluemix.net, with port 80 to the process manager.
+5. Add your app's route, `<your_app_name>-pm.mybluemix.net`, with port 80 to the process manager.
 6. Click Activate and use the process manager's tracing, metrics, and profiler to get information about your app as it runs on Bluemix. See Operating Node applications in the StrongLoop documentation for more information.
